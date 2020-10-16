@@ -1,0 +1,159 @@
+body {
+    max-width: 950px;
+    margin-left: 200px;
+    margin-right: auto;
+    background-color: darkgray;
+}
+header {
+    text-align: center;
+    background-color: firebrick;
+    color: white;
+    min-height: 20vh;
+    padding-top: 5px;
+}
+h1 {
+    font-family: Jazz LET, fantasy;
+    letter-spacing: 3px;
+}
+nav a, nav span, footer a{
+    color: white;
+}
+nav a:hover, footer a:hover {
+    color: darkgray;
+}
+main {
+    background-color: gainsboro;
+}
+main h1, h6 {
+    text-align: center;
+}
+main .row .columns .mark {
+    text-align: center;
+    color: firebrick;
+    padding-top: 0%;
+}
+h4 {
+    text-align: center;
+    color: firebrick;
+}
+h5 {
+    text-align: center;
+    padding-top: 7px;
+}
+.imageowner {
+    width: 120%;
+}
+p {
+    padding-top: 20px;
+    line-height: 200%;
+    color: black;
+}
+.stars {
+    text-align: center;
+    color: yellow;
+}
+.rick, .boot {
+    text-align: left;
+}
+.boot {
+    padding-top: 5px;
+}
+.services {
+    padding-top: 10px;
+}
+.columns {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+footer {
+    text-align: center;
+    line-height: 200%;
+    background-color: firebrick;
+    color: white;
+    font-size: large;
+    min-height: 12vh;
+    padding-top: 5px;
+}
+.sidebarp {
+    padding: 5px;
+    color: firebrick;
+    font-size: 15px;
+    text-align: center;
+}
+iframe {
+    padding-top: 0px;
+    padding-left: 30px;
+}
+hr {
+    border-top: firebrick solid 3px;
+    border-bottom: none;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkgray;
+    overflow-x: hidden;
+    padding-top: 5px;
+}
+.sidenav a {
+    padding: 0px 8px 0px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: firebrick;
+    display: block;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.callout.primary {
+    background-color: gainsboro;
+    color: #0a0a0a; }
+@media screen and (max-width: 479px){
+    body {
+        margin-left: auto;
+    }
+    .sidenav {
+        display: none;
+    }
+    .columns {
+        float: left;
+        width: 100%;
+        padding: 20px;
+    }
+    img, .imageowner {
+        display: none;
+    }
+    footer {
+        font-size: small;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+    body {
+        margin-left: auto;
+    }
+    .sidenav {
+        display: none;
+    }
+    .columns {
+        float: left;
+        width: 100%;
+        padding: 20px;
+    }
+    img, .imageowner {
+        display: none;
+    }
+    footer {
+        font-size: medium;
+    }
+}
+  
